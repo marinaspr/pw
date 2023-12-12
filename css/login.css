@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', cursive;
+}
+
+body{
+    background-color:#2e2e2e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#nav{
+    width: 100%;
+    height: 7vw;
+    background-color: black;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+
+#ag_logo{
+    position: absolute;
+    width: 9%;
+    height: 100%;
+    color: black;
+    margin-left: 1vw;
+}
+
+h2{
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.inicio{
+    position: absolute;
+    margin-left: 28vw;
+    margin-bottom: 2vw;
+}
+
+.sobre{
+    position: absolute;
+    margin-left: 30.5vw;
+}
+
+#login_btn{
+    width: 15%;
+    background-color: #626161;
+    color: white;
+    margin-left: 35vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    border: 0;
+}
+
+#usuário{
+    height: 3vw;
+    margin-left: 2.3vw;
+    margin-bottom: 2vw;
+    width: 90%;
+    padding-left: 1vw;
+}
+
+#senha{
+    height: 3vw;
+    margin-left: 2.3vw;
+    margin-bottom: 2vw;
+    width: 90%;
+    padding-left: 1vw;
+}
+
+.user-name{
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+    margin-left: 2.5vw;
+}
+
+.passwd{
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+    margin-left: 2.5vw;
+}
+
+#esq-senha{
+    font-size: 1vw;
+    text-decoration: underline;
+    color: #626161;
+    margin-left: 34vw;
+    margin-bottom: 2vw;
+    cursor: pointer;
+}
+
+.card{
+    background-color: black;
+    width: 50vw;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.label-float{
+    text-align:left;
+    color: white;
+    padding: 2vw;
+}
+    
+    .justify{
+        position: center;
+        width: 30%;
+        height: 3vw;
+        cursor: pointer;
+        background: #626161;
+        color: white;
+        border: 0;
+        margin-bottom: 30px;
+        margin-left: 16vw;
+        font-size: 1.7vw;
+        font-weight: 600;
+    }
+
+    
+    h4{
+        width: 50%;
+        height: 30px;
+        cursor: pointer;
+        background: #2e2e2e;
+        color: white;
+        left: 70%;
+        top: 50%;
+        border: 0;
+    }
+    
+    .entrar{
+      margin-left: 38vw;
+      margin-top: 5%;
+      font-size: 2.5vw;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    span{
+        color: white;
+        font-size: 1.3vw;
+        font-weight: 800;
+    }
+    
+    .resgatar{
+        position: absolute;
+        margin-left: 83vw;
+    }
+    
+    #nav2{
+        height: 4vw;
+        background-color: black;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+    
+    .rodape{
+        margin-top: auto;
+        width: 100%;
+        height: 7vw;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bi-eye{
+        width: 0.5vw;
+    }
+    
+    p{
+        color: white;
+        font-size: 1.2vw;
+    }
+    
+    .ano{
+        position: absolute;
+        margin-top: 5%;
+    }
+    
+    h5{
+        color: white;
+        font-size: 1.4vw;
+        font-weight: 800;
+    }
+    
+    .reembolso{
+        position: absolute;
+        margin-left: 18vw;
+    }
+    
+    .suporte{
+        position: absolute;
+        margin-left: 36vw;
+    }
+    
+    .termos{
+        position: absolute;
+        margin-left: 52vw;
+    }
+    
+    .contato{
+        position: absolute;
+        margin-left: 73.5vw;
+    }
+    
+    #ag_logo2{
+        position: absolute;
+        width: 6vw;
+        height: 6vw;
+        color: black;
+        margin-left: 90vw;
+    }
